@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All products page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-white sticky-top">
+    <div class="container-fluid mx-3">
+      <a href="home.html" class="navbar-brand fw-bold d-flex align-items-center gap-2">
+        <img src="foto/logo.jpg" width="35">
+        <span>TUNA.</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+          </li>
+          <li class="nav-item mx-3 dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">All</a></li>
+              <li><a class="dropdown-item" href="shoes.html">Shoes</a></li>
+              <li><a class="dropdown-item" href="shirt.html">Shirt</a></li>
+              <li><a class="dropdown-item" href="accesories.html">Accesories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="cart.html">
+              <i class="bi bi-bag-heart"></i>
+            </a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="search.html">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+    <h4 class="text-center mb-5">All Products</h4>
+    <div class="row justify-content-center">
+
+      <!-- copas -->
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 1.jpeg" data-lightbox="baju 1" data-title="baju">
+              <img src="foto/baju 1.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 1</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure vibranium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 700.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 1', 700000, 'foto/baju 1.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 2.jpeg" data-lightbox="baju 2" data-title="baju">
+              <img src="foto/baju 2.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 2</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure titanium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 650.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 2', 650000, 'foto/baju 2.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 3.jpeg" data-lightbox="baju 3" data-title="baju">
+              <img src="foto/baju 3.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 3</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure alumunium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 3', 750000, 'foto/baju 3.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 4.jpeg" data-lightbox="baju 4" data-title="baju">
+              <img src="foto/baju 4.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 4</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure vibranium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 700.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 4', 700000, 'foto/baju 4.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 5.jpeg" data-lightbox="baju 5" data-title="baju">
+              <img src="foto/baju 5.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 5</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure titanium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 650.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 5', 650000, 'foto/baju 5.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 6.jpeg" data-lightbox="baju 6" data-title="baju">
+              <img src="foto/baju 6.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 6</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure alumunium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 6', 750000, 'foto/baju 6.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 7.jpeg" data-lightbox="baju 7" data-title="baju">
+              <img src="foto/baju 7.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 7</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure vibranium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 700.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 7', 700000, 'foto/baju 7.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 8.jpeg" data-lightbox="baju 8" data-title="baju">
+              <img src="foto/baju 8.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 8</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure titanium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 650.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 8', 650000, 'foto/baju 8.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/baju 9.jpeg" data-lightbox="baju 9" data-title="baju">
+              <img src="foto/baju 9.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature Shirt 9</strong>
+              </h5>
+              <p class="card-text text-center">our newest shirt that imbues with pure alumunium that make it super
+                durable and comfortable</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Shirt 9', 750000, 'foto/baju 9.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedfish 1.jpeg" data-lightbox="speedfish 1" data-title="speedfish">
+              <img src="foto/speedfish 1.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedfish 1</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.000.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedfish 1', 2000000, 'foto/speedfish 1.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedfish 2.jpeg" data-lightbox="speedfish 2" data-title="speedfish">
+              <img src="foto/speedfish 2.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedfish 2</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.100.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedfish 2', 2100000, 'foto/speedfish 2.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedfish 3.jpeg" data-lightbox="speedfish 3" data-title="speedfish">
+              <img src="foto/speedfish 3.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedfish 3</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.600.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedfish 3', 2600000, 'foto/speedfish 3.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/sneakers 1.jpeg" data-lightbox="sneakers 1" data-title="sneakers">
+              <img src="foto/sneakers 1.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature sneakers 1</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.000.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Sneakers 1', 2000000, 'foto/sneakers 1.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/sneakers 2.jpeg" data-lightbox="sneakers 2" data-title="sneakers">
+              <img src="foto/sneakers 2.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature sneakers 2</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.100.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Sneakers 2', 2100000, 'foto/sneakers 2.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/sneakers 3.jpeg" data-lightbox="sneakers 3" data-title="sneakers">
+              <img src="foto/sneakers 3.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature sneakers 3</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.600.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Sneakers 3', 2600000, 'foto/sneakers 3.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedy 1.jpeg" data-lightbox="speedy 1" data-title="speedy">
+              <img src="foto/speedy 1.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedy 1</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.000.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedy 1', 2000000, 'foto/speedy 1.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedy 2.jpeg" data-lightbox="speedy 2" data-title="speedy">
+              <img src="foto/speedy 2.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedy 2</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.100.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedy 2', 2100000, 'foto/speedy 2.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/speedy 3.jpeg" data-lightbox="speedy 3" data-title="speedy">
+              <img src="foto/speedy 3.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Signature speedy 3</strong>
+              </h5>
+              <p class="card-text text-center">our most popular model that merge speed eficiency and comfort</p>
+              <h4 class="text-center text-warning">Rp 2.600.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Signature Speedy 3', 2600000, 'foto/speedy 3.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 1.jpeg" data-lightbox="aksesoris 1" data-title="aksesoris">
+              <img src="foto/aksesoris 1.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy shade 1</strong>
+              </h5>
+              <p class="card-text text-center">the ultimate shade for every day and intense sports</p>
+              <h4 class="text-center text-warning">Rp 500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Shade 1', 500000, 'foto/aksesoris 1.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 2.jpeg" data-lightbox="aksesoris 2" data-title="aksesoris">
+              <img src="foto/aksesoris 2.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy shade 2</strong>
+              </h5>
+              <p class="card-text text-center">the ultimate shade for every day and intense sports</p>
+              <h4 class="text-center text-warning">Rp 500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Shade 2', 500000, 'foto/aksesoris 2.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 3.jpeg" data-lightbox="aksesoris 3" data-title="aksesoris">
+              <img src="foto/aksesoris 3.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy shade 3</strong>
+              </h5>
+              <p class="card-text text-center">the ultimate shade for every day and intense sports</p>
+              <h4 class="text-center text-warning">Rp 500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Shade 3', 500000, 'foto/aksesoris 3.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 4.jpeg" data-lightbox="aksesoris 4" data-title="aksesoris">
+              <img src="foto/aksesoris 4.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy watch 1</strong>
+              </h5>
+              <p class="card-text text-center">our premium sporty watch that stylist and radical</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Watch 1', 750000, 'foto/aksesoris 4.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 5.jpeg" data-lightbox="aksesoris 5" data-title="aksesoris">
+              <img src="foto/aksesoris 5.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy watch 2</strong>
+              </h5>
+              <p class="card-text text-center">our premium sporty watch that stylist and radical</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Watch 2', 750000, 'foto/aksesoris 5.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 6.jpeg" data-lightbox="aksesoris 6" data-title="aksesoris">
+              <img src="foto/aksesoris 6.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Fishy watch 3</strong>
+              </h5>
+              <p class="card-text text-center">our premium sporty watch that stylist and radical</p>
+              <h4 class="text-center text-warning">Rp 750.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Fishy Watch 3', 750000, 'foto/aksesoris 6.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 7.jpeg" data-lightbox="aksesoris 7" data-title="aksesoris">
+              <img src="foto/aksesoris 7.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Slippy Bag 1</strong>
+              </h5>
+              <p class="card-text text-center">our technological advancement in sporty bags</p>
+              <h4 class="text-center text-warning">Rp 1.500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Slippy Bag 1', 1500000, 'foto/aksesoris 7.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 8.jpeg" data-lightbox="aksesoris 8" data-title="aksesoris">
+              <img src="foto/aksesoris 8.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Slippy Bag 2</strong>
+              </h5>
+              <p class="card-text text-center">our technological advancement in sporty bags</p>
+              <h4 class="text-center text-warning">Rp 1.500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Slippy Bag 2', 1500000, 'foto/aksesoris 8.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-3">
+          <div class="card">
+            <a href="foto/aksesoris 9.jpeg" data-lightbox="aksesoris 9" data-title="aksesoris">
+              <img src="foto/aksesoris 9.jpeg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-center text-warning">
+                <strong>Tuna Slippy Bag 3</strong>
+              </h5>
+              <p class="card-text text-center">our technological advancement in sporty bags</p>
+              <h4 class="text-center text-warning">Rp 1.500.000</h4>
+              <button class="btn btn-dark w-100"
+                onclick="addToCart('TUNA Slippy Bag 3', 1500000, 'foto/aksesoris 9.jpeg')">
+                <i class="bi bi-bag-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sampe sini -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+  <div class="container-fluid text-center text-light fw-bold mt-4" style="background-color: rgb(81, 81, 81);">
+    Grab Yours Now.
+  </div>
+
+  <footer class="container-fluid bg-white py-4 border-top border-dark px-4 px-md-5">
+    <div class="row text-center align-items-center">
+      <div class="col-md-3 mb-4">
+        <img src="foto/logo.jpg" width="65">
+      </div>
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">TUNA.</h6>
+        <p class="mb-0">The Official Store of TUNA.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">CONTACT US</h6>
+        <a href="https://wa.me/62895381127313" class="btn btn-dark d-inline-flex align-items-center gap-2">
+          <i class="bi bi-whatsapp"></i>
+          <span>Mon - Sun: 09:00 - 17:00</span>
+        </a>
+      </div>
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">SOCIAL MEDIA</h6>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="https://www.instagram.com/tuna.officialstore/" class="text-dark"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.tiktok.com/@tuna.officialstore?_r=1&_t=ZS-960tKnyOT9F" class="text-dark"><i
+              class="bi bi-tiktok"></i></a>
+          <a href="https://www.youtube.com/@TunaOfficialStore" class="text-dark"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function addToCart(nama, harga, gambar) {
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      let existing = cart.find(item => item.nama === nama);
+
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({
+          nama,
+          harga,
+          qty: 1,
+          gambar: gambar
+        });
+      }
+
+      localStorage.setItem("cart", JSON.stringify(cart));
+      alert("Masuk keranjang!");
+    }
+  </script>
+</body>
+
+</html>
